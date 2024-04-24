@@ -1,0 +1,232 @@
+.logo{
+    width: 10%;
+}
+html{
+    overflow-x: hidden;
+}
+:root{
+    --main-color : #222529;
+    --gray-600 : #c5c6cc;
+    --li-color:rgba(81, 67, 217, 0.2);
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--main-color);
+}
+
+.fill-in{
+    fill: #8e85e6;
+}
+
+.fill-warning{
+    color: yellow;
+}
+.main-color{
+    
+    background-color: rgb(81 67 217 / 10%);
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--main-color),var(--bs-bg-opacity))!important;
+}
+.color-li {
+    color: var(--gray-600);
+}
+.color-li li:hover { 
+    color: #8e85e6; 
+    transition: .5s;
+}
+.bg-color{
+background-color: var(--li-color);
+}
+.notif-badge {
+    width: 10px;
+    height: 10px;
+    background: #d6293e;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    z-index: 1;
+    animation: blink 1s infinite ;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+.bg-bell {
+    background-color:  rgba(34, 37, 41,2);
+    
+    color: #fff;
+    border: none;
+}
+.display-5 {
+        font-size: calc(1rem + 3.3vw);
+        font-weight: 700;
+        line-height: 1.25;
+}
+
+.btn-primary-soft{
+    color: #8e85e6 ;
+    background-color: rgba(81, 67, 217, 0.1);
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    
+    background-image: url(../images/12.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.po-cir{
+    width: 90px;
+    height:90px;
+    background-image: url(../images/category/hotel/4by3/11.jpg);
+    background-position: center center;
+    background-size: cover;
+    bottom: 60%;
+}
+.po-cir2{
+    width: 60px;
+    height:60px;
+    background-image: url(../images/category/hotel/4by3/12.jpg);
+    background-position: center center;
+    background-size: cover;
+    bottom: 85%;
+}
+.po-rec{
+ width: 150px;
+ height: 150px;
+ backdrop-filter: blur(5px);
+ top: -5%;
+ right: -5%;
+}
+
+.col4{
+    background-color: #191b1d;
+    padding: 25px;
+}
+.icon-cir{
+    width: 56px;
+    height: 56px;
+    background-color:  #8e85e6 ;
+    
+}
+h2{
+    font-size: calc(1.425rem + 2.1vw);
+}
+.best-right img{
+   
+}
+.react{
+    width: 15%;
+    position: absolute;
+   right: 92%;
+   top: 5%;
+    z-index: 3;
+}
+
+
+.list-avatar li img{
+    width: 45px;
+    height: 45px;
+}
+.rating{
+ bottom: 10%;
+ left: 5%;
+}
+.avatar-m{
+    
+    margin-right: -15px;
+}
+.round{
+    width: 45px;
+    height: 45px;
+    background-color: #8e85e6;
+}
+.round span{
+    top: 25%;
+    left: 25%;
+}
+.image img{
+width: 90%;
+}
+.avatar img{
+    width: 15%;
+}
+.pay{
+    background-color:  #2a2c31;
+    
+}
+.like{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    
+
+}
+.dots{
+    bottom: 0;
+    right: -60%;
+}
+.rround{
+    width: 80px;
+    height: 80px;
+}
+.scale:hover{
+    
+    transition: all .5s ease-in;
+    transform: scale(1.01);
+    
+}
+
+.location{
+    top: 72%;
+    left: 3%;
+}
+.filter-gray img{
+    filter: grayscale(1);
+    width: 150px;
+    height: 42px;
+}
+.filter-gray img:hover{
+    filter: grayscale(0);
+    transition: .8s;
+}
+.help{
+    background-color: var(--main-color);
+}
+.color-li{
+    color: var(--gray-600);
+}
+
+.list-inline-item img{
+    width: 10%;
+}
+
+.bg-facebook {
+    background-color: #5d82d1;
+    color: #fff;
+    border: none;
+}
+.bg-twitter {
+    background-color: #40bff5;
+    color: #fff;
+    border: none;
+}
+.bg-linkedin {
+    background-color: #238cc8;
+    color: #fff;
+    border: none;
+}
+.bg-instagram {
+    background: #c22b72;
+    color: #fff;
+    border: none;
+}
+.footer-bg{
+    background-color: var(--bs-dark-rgb);
+}
